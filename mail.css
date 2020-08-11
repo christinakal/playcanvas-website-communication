@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
 
 body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .playcanvas-iframe{
@@ -23,7 +26,7 @@ body{
     /* z-index:999999; */
 }
 
-.message-wrapper{    z-index: 2;
+.message-wrapper{
     z-index: 2;
     position: absolute;
     top:20px;
@@ -31,4 +34,12 @@ body{
     width: 100%;
     height: 10%;
     text-align: center;
+}
+
+.message-wrapper p{
+    color: #fff;
+}
+
+.texture-name{
+    margin-bottom: 10px;
 }
