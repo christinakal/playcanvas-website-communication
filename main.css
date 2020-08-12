@@ -26,8 +26,13 @@ body{
     /* z-index:999999; */
 }
 
-.message-wrapper{
+.main{
+    position: relative;
     z-index: 2;
+}
+
+.message-wrapper{
+    z-index: 20;
     position: absolute;
     top:20px;
     left: 0;
@@ -42,4 +47,10 @@ body{
 
 .texture-name{
     margin-bottom: 10px;
+    color: pink;
+
+}
+
+.test-name{
+    display: none;
 }
