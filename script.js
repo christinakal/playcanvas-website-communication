@@ -28,9 +28,6 @@ function updateText(dataFromPC){
 
     const modelType = document.getElementById("model-type");
     modelType.innerHTML = dataFromPC.modelType;
-
-    
-
 }
 
 function removeClass(){
@@ -40,9 +37,6 @@ function removeClass(){
     const modelTypeText = document.getElementById("model-type-parent");
     modelTypeText.classList.remove("test-name");
 }
-
-
-
 
 
 // -- execute
